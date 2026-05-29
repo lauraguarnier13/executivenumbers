@@ -14,13 +14,13 @@ economia_mensal = [22.5, 26.5]
 reducao_pct = [30.6, 34.2]
 
 # --- Paleta de cores ---
-COR_PRIMARIA   = "#1a3a5c"   # azul escuro
-COR_DESTAQUE   = "#e63946"   # vermelho
-COR_POSITIVO   = "#2dc653"   # verde
-COR_NEUTRO     = "#457b9d"   # azul médio
-COR_CLARO      = "#a8dadc"   # azul claro
-COR_FUNDO      = "#f8f9fa"
-COR_LINHA      = "#dee2e6"
+COR_PRIMARIA   = "#2b2b2b"   # cinza chumbo escuro
+COR_DESTAQUE   = "#e8622a"   # laranja forte
+COR_POSITIVO   = "#f4a04a"   # laranja claro
+COR_NEUTRO     = "#5a5a5a"   # cinza chumbo médio
+COR_CLARO      = "#c0bfbf"   # cinza claro
+COR_FUNDO      = "#f5f5f5"
+COR_LINHA      = "#dcdcdc"
 
 def cor_barra(val, lista):
     """Retorna cor mais escura para o valor máximo."""
@@ -169,8 +169,8 @@ fig.add_annotation(
     showarrow=False,
     font=dict(size=11, color="#555"),
     align="center",
-    bgcolor="#e9f5ff",
-    bordercolor=COR_NEUTRO,
+    bgcolor="#f0ede8",
+    bordercolor=COR_DESTAQUE,
     borderwidth=1,
     borderpad=8,
 )
